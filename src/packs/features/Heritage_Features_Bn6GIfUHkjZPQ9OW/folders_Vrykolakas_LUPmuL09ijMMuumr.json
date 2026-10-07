@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "Bn6GIfUHkjZPQ9OW",
+  "name": "Vrykolakas",
+  "color": null,
+  "sorting": "a",
+  "_id": "LUPmuL09ijMMuumr",
+  "description": "",
+  "sort": 300000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK",
+    "modifiedTime": 1760121316972
+  },
+  "_key": "!folders!LUPmuL09ijMMuumr"
+}

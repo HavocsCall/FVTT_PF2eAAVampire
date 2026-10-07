@@ -1,0 +1,58 @@
+{
+  "folder": "TwbS0CHKRMB607lf",
+  "name": "Mental Rebirth",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements:</strong> Within 1 mile of comatose victim's body. You cannot be Frightened or Stupified</p><p><strong>Trigger:</strong> You would die due to failing Void Survival.</p><hr /><p></p><p></p><p>You return at Drained 3 from hunger and the drained immediately begins to increase each day as outlined in Vampire Ancestry.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "mental-rebirth",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vampire"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "defensive",
+    "deathNote": true
+  },
+  "_id": "r6ntEE0Ib9dTelCg",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.2",
+    "createdTime": 1760113482966,
+    "modifiedTime": 1760223529178,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "_key": "!items!r6ntEE0Ib9dTelCg"
+}

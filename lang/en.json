@@ -1,0 +1,25 @@
+{
+  "FVTT_PF2EAAVAMPIRE": {
+    "NAME": "PF2e AA: Vampire",
+    "SPECIFICRULES": { "PREVIOUSANCESTRY": "Which ancestry did you have before becoming a vampire?" },
+    "SETTINGS": {
+      "HUNGERCONDITIONS": { "NAME": "Hunger: Automate conditions", "HINT": "Automatically applies and removes hunger-linked drained, confused, and dying conditions for vampire player characters." },
+      "HUNGERRESTINCREASE": { "NAME": "Hunger: Increase on rest", "HINT": "When enabled, vampire player characters gain 1 hunger whenever Rest for the Night is used." },
+      "HUNGERTHRESHOLDS": {
+        "DRAINED": { "NAME": "Hunger Thresholds: Drained", "HINT": "Hunger value at which vampire characters begin gaining drained." },
+        "CONFUSED": { "NAME": "Hunger Thresholds: Confused", "HINT": "Hunger value at which vampire characters begin gaining confused." },
+        "DEATH": { "NAME": "Hunger Thresholds: Dying", "HINT": "Hunger value at which vampire characters begin gaining dying." }
+      }
+    },
+    "METERS": { "HUNGER": { "LABEL": "Hunger", "EMPTY": "No hunger capacity" } },
+    "TRAIT": {
+      "VAMPIRE": { "LABEL": "Vampire", "DESCRIPTION": "This trait marks feats, abilities, and creatures associated with the vampire ancestry." },
+      "JIANGSHI": { "LABEL": "Jiang-Shi", "DESCRIPTION": "A member of the jiang-shi vampire lineage." },
+      "MOROI": { "LABEL": "Moroi", "DESCRIPTION": "A member of the moroi vampire lineage." },
+      "NOSFERATU": { "LABEL": "Nosferatu", "DESCRIPTION": "A member of the nosferatu vampire lineage." },
+      "STRIGOI": { "LABEL": "Strigoi", "DESCRIPTION": "A member of the strigoi vampire lineage." },
+      "VETALARANA": { "LABEL": "Vetalarana", "DESCRIPTION": "A member of the vetalarana vampire lineage." },
+      "VRYKOLAKAS": { "LABEL": "Vrykolakas", "DESCRIPTION": "A member of the vrykolakas vampire lineage." }
+    }
+  }
+}

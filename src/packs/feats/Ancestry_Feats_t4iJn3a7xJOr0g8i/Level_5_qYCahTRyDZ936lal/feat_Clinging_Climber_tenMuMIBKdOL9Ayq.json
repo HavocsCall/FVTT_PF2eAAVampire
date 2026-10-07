@@ -1,0 +1,82 @@
+{
+  "folder": "qYCahTRyDZ936lal",
+  "name": "Clinging Climber",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.943,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "description": {
+      "value": "<p>You climb like a spider. You gain a @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb} Speed of 10 feet.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 10
+      }
+    ],
+    "slug": "clinging-climber",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vampire"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "tenMuMIBKdOL9Ayq",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760113309803,
+    "modifiedTime": 1760126403956,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "_key": "!items!tenMuMIBKdOL9Ayq"
+}

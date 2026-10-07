@@ -1,0 +1,72 @@
+{
+  "folder": "N4H35fqAW5LlTcuk",
+  "name": "Rejuvenating Feast",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When you successfully feed using your Vampire feed ability, you may reduce one physical condtion from the list below by 1.</p><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm], @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7], @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw], @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18], @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3].</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "rejuvenating-feast",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vampire"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.IzaYuhhDciqfHdCE",
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760113309803,
+    "modifiedTime": 1760126016314,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "_id": "gG9eSSVDbUkbsO6E",
+  "_key": "!items!gG9eSSVDbUkbsO6E"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": "UvHVEYvkEr8Rvlcb",
+  "name": "Level 9",
+  "color": null,
+  "sorting": "a",
+  "_id": "73UOuX43xutkXgC3",
+  "description": "",
+  "sort": 350000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111944138,
+    "modifiedTime": 1760111944138,
+    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
+  },
+  "_key": "!folders!73UOuX43xutkXgC3"
+}

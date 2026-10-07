@@ -1,0 +1,85 @@
+{
+  "folder": "yVaAmTRrUivnapgV",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Dominate Animal",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency:</strong> Three times a day</p><hr /><p>You can cast Dominate as a divine innate spell that affects only animals. The save DC is your class DC or spell DC, whichever is higher, and a creature that succeeds is immune to your Dominate Animal for 24 hours. You being destroyed ends the effect, but being reduced to 0 HP does not.</p><p>A dominated animal takes a -4 circumstance penalty to saving throws against your Feral Possession.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Vrykolakas Vampire"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "override": {
+          "dieSize": "d6"
+        },
+        "selector": "claw-damage"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vampire",
+        "vrykolakas"
+      ],
+      "otherTags": []
+    },
+    "slug": "dominate-animal",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+    "duplicateSource": "Item.PYug5bu71BJx7MUL",
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111960114,
+    "modifiedTime": 1760111960114,
+    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "sort": 100000,
+  "_id": "1vFZxFXxn9qknZ9I",
+  "_key": "!items!1vFZxFXxn9qknZ9I"
+}

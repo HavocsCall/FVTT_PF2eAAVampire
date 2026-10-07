@@ -1,0 +1,80 @@
+{
+  "folder": "fdqPVzP5UkWiGvrJ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Irresistible Allure",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>The effects of your Supernatural Allure have the effects of a 4th rank Charm spell.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Moroi Vampire"
+        },
+        {
+          "value": "Supernatural Charm"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vampire",
+        "moroi"
+      ],
+      "otherTags": []
+    },
+    "slug": "irresistible-allure",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+    "duplicateSource": "Item.QKQQyRIC6GEBijW9",
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.2",
+    "createdTime": 1760111949143,
+    "modifiedTime": 1760405445021,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "sort": 100000,
+  "_id": "9LVLPUtFJ9aUhIpL",
+  "_key": "!items!9LVLPUtFJ9aUhIpL"
+}

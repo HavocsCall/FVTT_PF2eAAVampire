@@ -1,0 +1,77 @@
+{
+  "folder": "FJ8cazVr7H8jlJ61",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Shadow Disguise",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><strong>Frequency:</strong> Once per day</p><hr /><p>You blend into the shadow, gaining the effects of @UUID[Compendium.pf2e.spells-srd.Item.QZ7OHptO1xnwaruq]{Penumbral Disguise}. You may only target yourself. The DC of the spell is equal to your class DC or spell DC, whichever is higher. This is an occult innate spell.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Strigoi Vampire"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vampire",
+        "strigoi"
+      ],
+      "otherTags": []
+    },
+    "slug": "shadow-disguise",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+    "duplicateSource": "Item.rx7MTESRIUf6wshI",
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111944151,
+    "modifiedTime": 1760111944151,
+    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "sort": 100000,
+  "_id": "YHpNslmbM9AWJOqe",
+  "_key": "!items!YHpNslmbM9AWJOqe"
+}

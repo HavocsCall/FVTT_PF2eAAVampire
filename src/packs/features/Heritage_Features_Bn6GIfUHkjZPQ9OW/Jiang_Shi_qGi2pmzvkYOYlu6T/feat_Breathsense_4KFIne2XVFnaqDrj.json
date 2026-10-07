@@ -1,0 +1,76 @@
+{
+  "name": "Breathsense",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain breathsense as an imprecise sense with a range of 30 feet. This works as scent, but only for creatures that breathe.<br /><br />A living creature within the listed range who holds its breath is @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf] to your breathsense for as long as it holds its breath. To hold its breath in this way, a creature must have one hand free to fully plug its nose or cover its mouth.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "breathsense",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vampire"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Jiang-Shi Heritage"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/air/fog-gas-smoke-dense-blue.webp",
+  "folder": "qGi2pmzvkYOYlu6T",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760113067956,
+    "modifiedTime": 1760114804142,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "_id": "4KFIne2XVFnaqDrj",
+  "sort": 0,
+  "_key": "!items!4KFIne2XVFnaqDrj"
+}

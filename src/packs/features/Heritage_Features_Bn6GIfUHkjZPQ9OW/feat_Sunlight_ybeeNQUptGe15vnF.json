@@ -1,0 +1,72 @@
+{
+  "img": "systems/pf2e/icons/spells/bless.webp",
+  "name": "Sunlight",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>If exposed to sunlight, you are afflicted with persistent vitality damage equal to half your level (minimum 1) amount of d6. You cannot recover from this while remaining in sunlight. The persistent damage is removed once you are no longer in sunlight. If you are reduced to 0 HP from this damage, you are immediately destroyed.</p><hr /><p>@Damage[(max(1, floor(@actor.level / 2)))d6[persistent, vitality]]</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Book of the Dead",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vampire"
+      ],
+      "otherTags": []
+    },
+    "slug": "sunlight",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111860679,
+    "modifiedTime": 1760128862070,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "effects": [],
+  "folder": "Bn6GIfUHkjZPQ9OW",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "_id": "ybeeNQUptGe15vnF",
+  "sort": 0,
+  "_key": "!items!ybeeNQUptGe15vnF"
+}

@@ -1,0 +1,133 @@
+{
+  "folder": "XWg50lfiqaPcUWu4",
+  "name": "Nosferatu Vampire",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.943,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_PF2eAAVampire.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Brandished garlic or holy symbol</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_PF2eAAVampire.actions.Item.u16v9mFtIA45pXQW]</p><hr /><p>Eternal life, not eternal youth.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>+1 circumstance bonus to coerce and lie on humanoids.</p><p><strong>Cons:</strong></p><p>Sunlight</p><p>Coffin-Bound</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/fangs.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Fangs",
+        "range": null,
+        "slug": "fangs",
+        "traits": [
+          "finesse",
+          "unarmed"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.xFtNxou5uymF7iae"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:lie",
+          "target:trait:humanoid"
+        ],
+        "selector": "deception",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:coerce",
+          "target:trait:humanoid"
+        ],
+        "selector": "intimidation",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.features.Item.nIgLgP15CEUyq14Z",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.features.Item.ybeeNQUptGe15vnF",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.u16v9mFtIA45pXQW",
+        "predicate": [
+          {
+            "gte": [
+              "self.level",
+              10
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:nosferatu"
+      }
+    ],
+    "slug": "nosferatu-vampire",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare"
+    },
+    "ancestry": {
+      "name": "Vampire",
+      "slug": "vampire",
+      "uuid": "Compendium.FVTT_PF2eAAVampire.ancestries.Item.vuVn3FeKHSIqJRJ8"
+    }
+  },
+  "_id": "rH6LkKQ4ouW5znix",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.rH6LkKQ4ouW5znix",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "createdTime": 1760112600690,
+    "modifiedTime": 1791154108872,
+    "lastModifiedBy": "VgNHGFD7Mb77Euf4"
+  },
+  "_key": "!items!rH6LkKQ4ouW5znix"
+}

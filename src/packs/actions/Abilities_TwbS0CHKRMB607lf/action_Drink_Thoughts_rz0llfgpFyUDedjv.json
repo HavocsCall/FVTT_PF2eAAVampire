@@ -1,0 +1,62 @@
+{
+  "folder": "TwbS0CHKRMB607lf",
+  "name": "Drink Thoughts",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.943,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or willing creature is within your reach</p><hr /><p><strong>Effect</strong> You close in on that creature and drink its thoughts. If the victim is grabbed, this requires an @Check[occultism|defense:will] or @Check[religion|defense:will] check against the victim's Will DC. This automatically succeeds for any of the other conditions. If you succeed, the creature becomes Stupified, and you gain temporary HP equal to the target's level that last for 10 minutes. Further uses against the target don't increase the drained condition or grant you more temporary HP.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "drink-thoughts",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vampire"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.45qG1dMfitsS0MoK",
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760113482966,
+    "modifiedTime": 1760129281361,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "_id": "rz0llfgpFyUDedjv",
+  "_key": "!items!rz0llfgpFyUDedjv"
+}

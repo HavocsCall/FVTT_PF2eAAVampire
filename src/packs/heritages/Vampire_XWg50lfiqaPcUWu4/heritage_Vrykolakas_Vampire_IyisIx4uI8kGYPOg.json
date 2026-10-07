@@ -1,0 +1,146 @@
+{
+  "folder": "XWg50lfiqaPcUWu4",
+  "name": "Vrykolakas Vampire",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.943,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_PF2eAAVampire.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Ingredient of a physical curing elixir, such as witchhazel, wilow bark, or aloe. Ask your GM.</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_PF2eAAVampire.actions.Item.U9GUJSfrhZ8jDcns]</p><hr /><p>Bestial, associated with animals and plagues.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>Claws</p><p>All fours 30 feet speed</p><p>Change Shape - bestial/humanoid</p><p><strong>Cons:</strong></p><p>Burial Site Bound.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.claw",
+        "range": null,
+        "slug": "claw",
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse"
+        ]
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/fangs.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Fangs",
+        "range": null,
+        "slug": "fangs",
+        "traits": [
+          "finesse",
+          "unarmed"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.xFtNxou5uymF7iae",
+        "allowDuplicate": false
+      },
+      {
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.Automaton.HunterAutomaton.ToggleLabel",
+        "option": "on-all-fours",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "land-speed"
+        ],
+        "value": 5,
+        "predicate": [
+          "on-all-fours"
+        ],
+        "label": "PF2E.SpecificRule.Automaton.HunterAutomaton.ToggleLabel"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.PKfz4pGsffFQuWpN",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.U9GUJSfrhZ8jDcns",
+        "predicate": [
+          {
+            "gte": [
+              "self.level",
+              10
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:vrykolakas"
+      }
+    ],
+    "slug": "vrykolakas-vampire",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "ancestry": {
+      "name": "Vampire",
+      "slug": "vampire",
+      "uuid": "Compendium.FVTT_PF2eAAVampire.ancestries.Item.vuVn3FeKHSIqJRJ8"
+    }
+  },
+  "_id": "IyisIx4uI8kGYPOg",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.IyisIx4uI8kGYPOg",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "createdTime": 1760112600690,
+    "modifiedTime": 1791154058862,
+    "lastModifiedBy": "VgNHGFD7Mb77Euf4"
+  },
+  "_key": "!items!IyisIx4uI8kGYPOg"
+}

@@ -1,0 +1,72 @@
+{
+  "img": "systems/pf2e/icons/spells/bless.webp",
+  "name": "Sunlight (Strigoi)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>If exposed to sunlight, you are afflicted with persistent vitality damage equal to half your level (minimum 1)amount of d10. You cannot recover from this while remaining in sunlight. The persistent damage is removed once you are no longer in sunlight. If you are reduced to 0 HP from this damage, you are immediately destroyed.</p><hr /><p>@Damage[(max(1, floor(@actor.level / 2)))d10[persistent, vitality]]</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Book of the Dead",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vampire"
+      ],
+      "otherTags": []
+    },
+    "slug": "sunlight-strigoi",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111873511,
+    "modifiedTime": 1760128854234,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "effects": [],
+  "folder": "9Ydf1upDrItELT18",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "_id": "sPOTbj09xrAaQWw5",
+  "sort": 0,
+  "_key": "!items!sPOTbj09xrAaQWw5"
+}

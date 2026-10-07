@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": "Bn6GIfUHkjZPQ9OW",
+  "name": "Vetalarana",
+  "color": null,
+  "sorting": "a",
+  "_id": "mA7my2D0ME9JxAK6",
+  "description": "",
+  "sort": 200000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111848326,
+    "modifiedTime": 1760121316972,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "_key": "!folders!mA7my2D0ME9JxAK6"
+}

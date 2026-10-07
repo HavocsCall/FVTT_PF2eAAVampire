@@ -1,0 +1,133 @@
+{
+  "folder": "XWg50lfiqaPcUWu4",
+  "name": "Moroi Vampire",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.943,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_PF2eAAVampire.actions.Item.xFtNxou5uymF7iae]</p><p><strong>Revulsion:</strong> Brandished garlic or holy symbol</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_PF2eAAVampire.actions.Item.LSxZ7VdgfBBqxxJh]</p><hr /><p>Eternal youth and beauty. The Twilight vampires.</p><p><strong>Pros:</strong></p><p>Fangs</p><p>+1 circumstance bonus to request and lie on humanoids.</p><p><strong>Cons:</strong></p><p>Sunlight</p><p>Coffin-Bound</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/fangs.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Fangs",
+        "range": null,
+        "slug": "fangs",
+        "traits": [
+          "finesse",
+          "unarmed"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.xFtNxou5uymF7iae",
+        "allowDuplicate": false
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:lie",
+          "target:trait:humanoid"
+        ],
+        "selector": "deception",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "action:request",
+          "target:trait:humanoid"
+        ],
+        "selector": "diplomacy",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.features.Item.ybeeNQUptGe15vnF",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.features.Item.nIgLgP15CEUyq14Z",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.LSxZ7VdgfBBqxxJh",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "gte": [
+              "self.level",
+              10
+            ]
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "vampire-lineage:moroi"
+      }
+    ],
+    "slug": "moroi-vampire",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare"
+    },
+    "ancestry": {
+      "name": "Vampire",
+      "slug": "vampire",
+      "uuid": "Compendium.FVTT_PF2eAAVampire.ancestries.Item.vuVn3FeKHSIqJRJ8"
+    }
+  },
+  "_id": "lMV3y21Ot2ZiGNU5",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.lMV3y21Ot2ZiGNU5",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "createdTime": 1760112600690,
+    "modifiedTime": 1791154111236,
+    "lastModifiedBy": "VgNHGFD7Mb77Euf4"
+  },
+  "_key": "!items!lMV3y21Ot2ZiGNU5"
+}

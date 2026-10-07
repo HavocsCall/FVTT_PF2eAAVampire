@@ -1,0 +1,58 @@
+{
+  "folder": "TwbS0CHKRMB607lf",
+  "name": "Shadow Escape",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Restriction:</strong> The vampire's coffin must be established. They cannot be in bright light.</p><p><strong>Trigger:</strong> You would die due to failing Void Survival.</p><hr /><p>Effect The Vampire turns to shadow. They can take move actions towards their coffin even though they are at 0 HP. While at 0 HP in this form, the vampire is unaffected by further damage. They automatically return to their corporeal form, unconscious, if they reach their coffin or after 2 hours, whichever comes first.</p><p></p><p>You return at Drained 3 from hunger and the drained immediately begins to increase each day as outlined in Vampire Ancestry.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "shadow-escape",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vampire"
+      ]
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "defensive",
+    "deathNote": true
+  },
+  "_id": "cXOBJ8kh0gZtGJBx",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.2",
+    "createdTime": 1760113482966,
+    "modifiedTime": 1760223797203,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "_key": "!items!cXOBJ8kh0gZtGJBx"
+}

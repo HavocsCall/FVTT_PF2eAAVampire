@@ -1,0 +1,77 @@
+{
+  "folder": "fdqPVzP5UkWiGvrJ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Turn to Mist",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p>Once per day, turn to mist, gaining the effects of @UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG].</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 9
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Moroi Vampire"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vampire",
+        "moroi"
+      ],
+      "otherTags": []
+    },
+    "slug": "turn-to-mist",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+    "duplicateSource": "Item.s9XLz5JEi9cw3K81",
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.2",
+    "createdTime": 1760111949143,
+    "modifiedTime": 1760405305668,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "sort": 100000,
+  "_id": "QKQQyRIC6GEBijW9",
+  "_key": "!items!QKQQyRIC6GEBijW9"
+}

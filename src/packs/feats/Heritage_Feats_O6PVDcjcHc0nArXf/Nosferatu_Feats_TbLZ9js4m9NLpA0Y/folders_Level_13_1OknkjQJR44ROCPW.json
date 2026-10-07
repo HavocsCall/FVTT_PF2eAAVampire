@@ -1,0 +1,22 @@
+{
+  "type": "Item",
+  "folder": "TbLZ9js4m9NLpA0Y",
+  "name": "Level 13",
+  "color": null,
+  "sorting": "a",
+  "_id": "1OknkjQJR44ROCPW",
+  "description": "",
+  "sort": 450000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK",
+    "modifiedTime": 1760129605560
+  },
+  "_key": "!folders!1OknkjQJR44ROCPW"
+}

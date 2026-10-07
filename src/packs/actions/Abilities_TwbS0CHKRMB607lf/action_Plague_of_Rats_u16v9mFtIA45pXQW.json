@@ -1,0 +1,58 @@
+{
+  "folder": "TwbS0CHKRMB607lf",
+  "name": "Plague of Rats",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Restriction:</strong> The vampire's coffin must be established.</p><p><strong>Trigger:</strong> You would die due to failing Void Survival.</p><hr /><p>Disperse into swarm of rats upon death.</p><p></p><p>You return at Drained 3 from hunger and the drained immediately begins to increase each day as outlined in Vampire Ancestry.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "plague-of-rats",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vampire"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "defensive",
+    "deathNote": true
+  },
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.r6ntEE0Ib9dTelCg",
+    "duplicateSource": "Item.U9GUJSfrhZ8jDcns",
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.2",
+    "createdTime": 1760113482966,
+    "modifiedTime": 1760223656238,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "_id": "u16v9mFtIA45pXQW",
+  "_key": "!items!u16v9mFtIA45pXQW"
+}

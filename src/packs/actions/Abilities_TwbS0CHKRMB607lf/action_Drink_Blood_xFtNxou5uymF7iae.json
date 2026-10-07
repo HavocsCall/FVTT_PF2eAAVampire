@@ -1,0 +1,58 @@
+{
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "name": "Drink Blood",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "offensive",
+    "description": {
+      "value": "<p><strong>Requirements</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or willing creature is within your reach</p>\n<hr />\n<p><strong>Effect</strong> You sink your fangs into that creature and drink its blood. This requires an @Check[athletics|defense:fortitude] check against the victim's Fortitude DC if the victim is grabbed, and automatically succeeds for any of the other conditions. If you succeed, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}, and you gain temporary HP equal to the target's level that last for 10 minutes. Further uses against the target don't increase the drained condition or grant you more temporary HP.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Book of the Dead",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "vampire"
+      ],
+      "otherTags": []
+    },
+    "slug": "drink-blood",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "deathNote": false
+  },
+  "type": "action",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760129281349,
+    "modifiedTime": 1760129281361,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "effects": [],
+  "folder": "TwbS0CHKRMB607lf",
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "wNjbqrYK5HMnXFbK": 3
+  },
+  "_id": "xFtNxou5uymF7iae",
+  "sort": 200000,
+  "_key": "!items!xFtNxou5uymF7iae"
+}

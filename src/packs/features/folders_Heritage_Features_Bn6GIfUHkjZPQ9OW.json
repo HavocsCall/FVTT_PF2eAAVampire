@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Heritage Features",
+  "color": null,
+  "sorting": "a",
+  "_id": "Bn6GIfUHkjZPQ9OW",
+  "description": "",
+  "sort": 100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111848326,
+    "modifiedTime": 1760111848336,
+    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
+  },
+  "_key": "!folders!Bn6GIfUHkjZPQ9OW"
+}

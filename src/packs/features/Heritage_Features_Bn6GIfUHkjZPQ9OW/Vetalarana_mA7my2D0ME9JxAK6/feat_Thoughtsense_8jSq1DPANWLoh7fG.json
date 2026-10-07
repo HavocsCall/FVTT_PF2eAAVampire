@@ -1,0 +1,86 @@
+{
+  "name": "Thoughtsense",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain thoughtsense as an imprecise sense with a range of 30 feet. <br /></p><p>You sense all non-mindless creatures within 30 feet as a imprecise sense.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "thoughtsense",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "vampire"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Vetalarana Heritage"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {
+        "thoughtsense": {
+          "acuity": "imprecise",
+          "range": 30,
+          "special": {
+            "ancestry": false,
+            "llv": false,
+            "second": false
+          }
+        }
+      },
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "8jSq1DPANWLoh7fG",
+  "img": "icons/commodities/biological/organ-brain-pink.webp",
+  "folder": "mA7my2D0ME9JxAK6",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.ar5DgkM1f7MpOkYZ",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111848331,
+    "modifiedTime": 1760113919516,
+    "lastModifiedBy": "wNjbqrYK5HMnXFbK"
+  },
+  "_key": "!items!8jSq1DPANWLoh7fG"
+}

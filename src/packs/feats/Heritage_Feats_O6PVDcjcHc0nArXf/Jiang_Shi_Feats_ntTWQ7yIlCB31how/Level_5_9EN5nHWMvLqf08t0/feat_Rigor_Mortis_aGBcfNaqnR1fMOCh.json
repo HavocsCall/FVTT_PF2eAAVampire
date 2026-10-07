@@ -1,0 +1,77 @@
+{
+  "folder": "9EN5nHWMvLqf08t0",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Rigor Mortis",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestry",
+    "description": {
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">The jiang-shi ignores difficult terrain and effects that would render it prone. A jiang-shi can't take the Drop Prone action. When a jiang-shi Leap, it doesn't trigger reactions that are normally triggered by move actions, such as Reactive Strike.</span></p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Jiang-Shi Vampire"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "vampire",
+        "jiang-shi"
+      ],
+      "otherTags": []
+    },
+    "slug": "rigor-mortis",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+    "duplicateSource": "Item.x3EbB3CkQN5Auuyx",
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1760111951824,
+    "modifiedTime": 1760112462799,
+    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
+  },
+  "effects": [],
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "UPnjMbTUnpLyKVOr": 3
+  },
+  "sort": 100000,
+  "_id": "aGBcfNaqnR1fMOCh",
+  "_key": "!items!aGBcfNaqnR1fMOCh"
+}
