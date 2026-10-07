@@ -1,77 +1,74 @@
 {
-  "folder": "aQZ1SBRwETueacnf",
-  "img": "icons/sundries/books/book-red-exclamation.webp",
-  "name": "Command",
-  "system": {
-    "actionType": {
-      "value": "passive"
-    },
-    "actions": {
-      "value": null
-    },
-    "category": "ancestry",
-    "description": {
-      "value": "<p>Once a day command</p>",
-      "gm": ""
-    },
-    "level": {
-      "value": 5
-    },
-    "prerequisites": {
-      "value": [
-        {
-          "value": "Nosferatu Vampire"
-        }
-      ]
-    },
-    "publication": {
-      "license": "ORC",
-      "remaster": true,
-      "title": "",
-      "authors": ""
-    },
-    "rules": [],
-    "traits": {
-      "rarity": "common",
-      "value": [
-        "vampire",
-        "nosferatu"
-      ],
-      "otherTags": []
-    },
-    "slug": "command",
-    "_migration": {
-      "version": 0.943,
-      "previous": null
-    },
-    "onlyLevel1": false,
-    "maxTakable": 1,
-    "subfeatures": {
-      "proficiencies": {},
-      "senses": {},
-      "suppressedFeatures": []
-    },
-    "location": null
-  },
-  "type": "feat",
-  "_stats": {
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
-    "duplicateSource": "Item.o1NoFEloaEthRQ0c",
-    "exportSource": null,
-    "coreVersion": "13.348",
-    "systemId": "pf2e",
-    "systemVersion": "7.5.2",
-    "createdTime": 1760111947089,
-    "modifiedTime": 1760111947089,
-    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
-  },
-  "effects": [],
-  "flags": {},
-  "ownership": {
-    "default": 0,
-    "UPnjMbTUnpLyKVOr": 3
-  },
-  "sort": 100000,
-  "_id": "v0AVyBGlmSgOpTRw",
-  "_key": "!items!v0AVyBGlmSgOpTRw"
+	"folder": "aQZ1SBRwETueacnf",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"name": "Command",
+	"system": {
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"category": "ancestry",
+		"description": {
+			"value": "<p>Once a day command</p>",
+			"gm": ""
+		},
+		"level": {
+			"value": 5
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Nosferatu Vampire"
+				}
+			]
+		},
+		"publication": {
+			"license": "ORC",
+			"remaster": true,
+			"title": "",
+			"authors": ""
+		},
+		"rules": [],
+		"traits": {
+			"rarity": "common",
+			"value": ["vampire", "nosferatu"],
+			"otherTags": []
+		},
+		"slug": "command",
+		"_migration": {
+			"version": 0.943,
+			"previous": null
+		},
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"type": "feat",
+	"_stats": {
+		"compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+		"duplicateSource": "Item.o1NoFEloaEthRQ0c",
+		"exportSource": null,
+		"coreVersion": "13.348",
+		"systemId": "pf2e",
+		"systemVersion": "7.5.2",
+		"createdTime": 1760111947089,
+		"modifiedTime": 1760111947089,
+		"lastModifiedBy": "UPnjMbTUnpLyKVOr"
+	},
+	"effects": [],
+	"flags": {},
+	"ownership": {
+		"default": 0,
+		"UPnjMbTUnpLyKVOr": 3
+	},
+	"sort": 100000,
+	"_id": "v0AVyBGlmSgOpTRw",
+	"_key": "!items!v0AVyBGlmSgOpTRw"
 }

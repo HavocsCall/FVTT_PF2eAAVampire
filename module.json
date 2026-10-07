@@ -1,50 +1,160 @@
 {
-  "id": "FVTT_PF2eAAVampire",
-  "title": "PF2e AA: Vampire",
-  "description": "A custom Vampire ancestry, heritages, feats, features, actions, and Hunger automation for PF2e.",
-  "version": "0.1.0",
-  "changelog": "CHANGELOG.md",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "authors": [{ "name": "HavocsCall", "url": "https://github.com/HavocsCall", "discord": "HavocsCall", "flags": {} }],
-  "compatibility": { "minimum": "13", "verified": "14" },
-  "flags": {
-    "canUpload": true,
-    "FVTT_PF2eAAVampire": {
-      "pf2e-homebrew": {
-        "creatureTraits": {
-          "jiang-shi": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.JIANGSHI.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.JIANGSHI.DESCRIPTION" },
-          "moroi": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.MOROI.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.MOROI.DESCRIPTION" },
-          "nosferatu": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.NOSFERATU.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.NOSFERATU.DESCRIPTION" },
-          "strigoi": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.STRIGOI.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.STRIGOI.DESCRIPTION" },
-          "vetalarana": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.VETALARANA.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.VETALARANA.DESCRIPTION" },
-          "vrykolakas": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.VRYKOLAKAS.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.VRYKOLAKAS.DESCRIPTION" }
-        },
-        "featTraits": {
-          "vampire": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.VAMPIRE.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.VAMPIRE.DESCRIPTION" },
-          "jiang-shi": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.JIANGSHI.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.JIANGSHI.DESCRIPTION" },
-          "moroi": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.MOROI.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.MOROI.DESCRIPTION" },
-          "nosferatu": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.NOSFERATU.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.NOSFERATU.DESCRIPTION" },
-          "strigoi": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.STRIGOI.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.STRIGOI.DESCRIPTION" },
-          "vetalarana": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.VETALARANA.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.VETALARANA.DESCRIPTION" },
-          "vrykolakas": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.VRYKOLAKAS.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.VRYKOLAKAS.DESCRIPTION" },
-          "hunger": { "label": "FVTT_PF2EAAVAMPIRE.TRAIT.HUNGER.LABEL", "description": "FVTT_PF2EAAVAMPIRE.TRAIT.HUNGER.DESCRIPTION" }
-        }
-      }
-    }
-  },
-  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json", "flags": {} }],
-  "packs": [
-    { "name": "actions", "label": "Vampire Actions", "path": "packs/actions", "type": "Item", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }, "system": "pf2e", "flags": {} },
-    { "name": "ancestries", "label": "Vampire Ancestry", "path": "packs/ancestries", "type": "Item", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }, "system": "pf2e", "flags": {} },
-    { "name": "feats", "label": "Vampire Feats", "path": "packs/feats", "type": "Item", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }, "system": "pf2e", "flags": {} },
-    { "name": "features", "label": "Vampire Features", "path": "packs/features", "type": "Item", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }, "system": "pf2e", "flags": {} },
-    { "name": "heritages", "label": "Vampire Heritages", "path": "packs/heritages", "type": "Item", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" }, "system": "pf2e", "flags": {} }
-  ],
-  "packFolders": [{ "name": "PF2e AA: Vampire", "sorting": "a", "packs": ["actions", "ancestries", "feats", "features", "heritages"], "color": "#880808" }],
-  "relationships": {
-    "systems": [{ "id": "pf2e", "type": "system", "compatibility": { "minimum": "7.5" } }],
-    "requires": [{ "id": "FVTT_Pf2eAALibrary", "type": "module", "compatibility": { "minimum": "0.1.0" } }]
-  },
-  "esmodules": ["src/scripts/vampire.js"]
+	"id": "FVTT_Pf2eAAVampire",
+	"title": "PF2e AA: Vampire",
+	"description": "A custom Vampire ancestry, heritages, feats, features, actions, and Hunger automation for PF2e.",
+	"version": "0.1.0",
+	"url": "https://github.com/HavocsCall/FVTT_Pf2eAAVampire",
+	"manifest": "https://github.com/HavocsCall/FVTT_Pf2eAAVampire/releases/latest/download/module.json",
+	"download": "https://github.com/HavocsCall/FVTT_Pf2eAAVampire/releases/download/v0.1.0/module.zip",
+	"changelog": "CHANGELOG.md",
+	"license": "LICENSE",
+	"readme": "README.md",
+	"authors": [{ "name": "HavocsCall", "url": "https://github.com/HavocsCall", "discord": "HavocsCall", "flags": {} }],
+	"compatibility": { "minimum": "14", "verified": "14" },
+	"flags": {
+		"canUpload": true,
+		"FVTT_Pf2eAAVampire": {
+			"pf2e-homebrew": {
+				"creatureTraits": {
+					"jiang-shi": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.JIANGSHI.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.JIANGSHI.DESCRIPTION"
+					},
+					"moroi": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.MOROI.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.MOROI.DESCRIPTION"
+					},
+					"nosferatu": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.NOSFERATU.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.NOSFERATU.DESCRIPTION"
+					},
+					"strigoi": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.STRIGOI.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.STRIGOI.DESCRIPTION"
+					},
+					"vetalarana": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.VETALARANA.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.VETALARANA.DESCRIPTION"
+					},
+					"vrykolakas": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.VRYKOLAKAS.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.VRYKOLAKAS.DESCRIPTION"
+					}
+				},
+				"featTraits": {
+					"vampire": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.VAMPIRE.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.VAMPIRE.DESCRIPTION"
+					},
+					"jiang-shi": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.JIANGSHI.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.JIANGSHI.DESCRIPTION"
+					},
+					"moroi": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.MOROI.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.MOROI.DESCRIPTION"
+					},
+					"nosferatu": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.NOSFERATU.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.NOSFERATU.DESCRIPTION"
+					},
+					"strigoi": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.STRIGOI.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.STRIGOI.DESCRIPTION"
+					},
+					"vetalarana": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.VETALARANA.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.VETALARANA.DESCRIPTION"
+					},
+					"vrykolakas": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.VRYKOLAKAS.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.VRYKOLAKAS.DESCRIPTION"
+					},
+					"hunger": {
+						"label": "FVTT_PF2EAAVAMPIRE.TRAIT.HUNGER.LABEL",
+						"description": "FVTT_PF2EAAVAMPIRE.TRAIT.HUNGER.DESCRIPTION"
+					}
+				}
+			}
+		}
+	},
+	"languages": [{ "lang": "en", "name": "English", "path": "lang/en.json", "flags": {} }],
+	"packs": [
+		{
+			"name": "actions",
+			"label": "Vampire Actions",
+			"path": "packs/actions",
+			"type": "Item",
+			"ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "ancestries",
+			"label": "Vampire Ancestry",
+			"path": "packs/ancestries",
+			"type": "Item",
+			"ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "feats",
+			"label": "Vampire Feats",
+			"path": "packs/feats",
+			"type": "Item",
+			"ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "features",
+			"label": "Vampire Features",
+			"path": "packs/features",
+			"type": "Item",
+			"ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "heritages",
+			"label": "Vampire Heritages",
+			"path": "packs/heritages",
+			"type": "Item",
+			"ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "journals",
+			"label": "Vampire Journals",
+			"path": "packs/journals",
+			"type": "JournalEntry",
+			"ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" },
+			"system": "pf2e",
+			"flags": {}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "PF2e Accursed Ancestries",
+			"sorting": "a",
+			"packs": [],
+			"color": "#3234a8",
+			"folders": [
+				{
+					"name": "AA: Vampire",
+					"sorting": "a",
+					"packs": ["actions", "ancestries", "feats", "features", "heritages", "journals"],
+					"color": "#880808",
+					"folders": []
+				}
+			]
+		}
+	],
+	"relationships": {
+		"systems": [{ "id": "pf2e", "type": "system", "compatibility": { "minimum": "7.5" } }],
+		"requires": [{ "id": "FVTT_Pf2eAALibrary", "type": "module", "compatibility": { "minimum": "0.1.0" } }]
+	},
+	"esmodules": ["src/scripts/vampire.js"]
 }

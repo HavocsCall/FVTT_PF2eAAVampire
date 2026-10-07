@@ -1,94 +1,91 @@
 {
-  "folder": "hHjNWl3iCUh4t1P3",
-  "img": "icons/sundries/books/book-red-exclamation.webp",
-  "name": "Moroi Lore",
-  "system": {
-    "actionType": {
-      "value": "passive"
-    },
-    "actions": {
-      "value": null
-    },
-    "category": "ancestry",
-    "description": {
-      "value": "<p>You were raised by your vampiric parent, or you've invested substantial time and energy researching the secrets of your undead progenitors. You're trained in Diplomacy and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><p>You also gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} general feat for Vampire Lore.</p>",
-      "gm": ""
-    },
-    "level": {
-      "value": 1
-    },
-    "prerequisites": {
-      "value": [
-        {
-          "value": "Moroi Vampire"
-        }
-      ]
-    },
-    "publication": {
-      "license": "ORC",
-      "remaster": true,
-      "title": "",
-      "authors": ""
-    },
-    "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "mode": "upgrade",
-        "path": "system.skills.diplomacy.rank",
-        "value": 1
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "upgrade",
-        "path": "system.skills.society.rank",
-        "value": 1
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
-      }
-    ],
-    "traits": {
-      "rarity": "common",
-      "value": [
-        "vampire",
-        "moroi"
-      ],
-      "otherTags": []
-    },
-    "slug": "moroi-lore",
-    "_migration": {
-      "version": 0.943,
-      "previous": null
-    },
-    "onlyLevel1": false,
-    "maxTakable": 1,
-    "subfeatures": {
-      "proficiencies": {},
-      "senses": {},
-      "suppressedFeatures": []
-    },
-    "location": null
-  },
-  "type": "feat",
-  "_stats": {
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
-    "duplicateSource": "Item.rx7MTESRIUf6wshI",
-    "exportSource": null,
-    "coreVersion": "13.348",
-    "systemId": "pf2e",
-    "systemVersion": "7.5.2",
-    "createdTime": 1760111949143,
-    "modifiedTime": 1760111949143,
-    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
-  },
-  "effects": [],
-  "flags": {},
-  "ownership": {
-    "default": 0,
-    "UPnjMbTUnpLyKVOr": 3
-  },
-  "sort": 100000,
-  "_id": "s9XLz5JEi9cw3K81",
-  "_key": "!items!s9XLz5JEi9cw3K81"
+	"folder": "hHjNWl3iCUh4t1P3",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"name": "Moroi Lore",
+	"system": {
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"category": "ancestry",
+		"description": {
+			"value": "<p>You were raised by your vampiric parent, or you've invested substantial time and energy researching the secrets of your undead progenitors. You're trained in Diplomacy and Society. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</p><p>You also gain the @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{Additional Lore} general feat for Vampire Lore.</p>",
+			"gm": ""
+		},
+		"level": {
+			"value": 1
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Moroi Vampire"
+				}
+			]
+		},
+		"publication": {
+			"license": "ORC",
+			"remaster": true,
+			"title": "",
+			"authors": ""
+		},
+		"rules": [
+			{
+				"key": "ActiveEffectLike",
+				"mode": "upgrade",
+				"path": "system.skills.diplomacy.rank",
+				"value": 1
+			},
+			{
+				"key": "ActiveEffectLike",
+				"mode": "upgrade",
+				"path": "system.skills.society.rank",
+				"value": 1
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x"
+			}
+		],
+		"traits": {
+			"rarity": "common",
+			"value": ["vampire", "moroi"],
+			"otherTags": []
+		},
+		"slug": "moroi-lore",
+		"_migration": {
+			"version": 0.943,
+			"previous": null
+		},
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"type": "feat",
+	"_stats": {
+		"compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+		"duplicateSource": "Item.rx7MTESRIUf6wshI",
+		"exportSource": null,
+		"coreVersion": "13.348",
+		"systemId": "pf2e",
+		"systemVersion": "7.5.2",
+		"createdTime": 1760111949143,
+		"modifiedTime": 1760111949143,
+		"lastModifiedBy": "UPnjMbTUnpLyKVOr"
+	},
+	"effects": [],
+	"flags": {},
+	"ownership": {
+		"default": 0,
+		"UPnjMbTUnpLyKVOr": 3
+	},
+	"sort": 100000,
+	"_id": "s9XLz5JEi9cw3K81",
+	"_key": "!items!s9XLz5JEi9cw3K81"
 }

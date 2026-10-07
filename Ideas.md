@@ -1,6 +1,7 @@
 # Ideas
 
 ## Vampires
+
 Feed abilities can drain up to the creature's level. If they are drained beyond their level, they die.
 Hunger trait that allows strong abilities at the chance of increasing Hunger
 
@@ -41,6 +42,3 @@ Vets get dream message at some point and other dream related things
 Rejuvenating to remove some conditions
 Vryks have a reaction that triggers on piercing, slashing, bleed damage. The attacker fortitude saves against sickened.
 Vryks get something to impose sickened and persistent bleed similar to Phantom Pain. Flavor vomiting blood
-
-
-

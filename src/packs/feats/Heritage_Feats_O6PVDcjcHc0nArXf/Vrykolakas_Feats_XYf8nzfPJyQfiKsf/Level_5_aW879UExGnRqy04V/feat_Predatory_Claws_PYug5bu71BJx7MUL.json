@@ -1,88 +1,85 @@
 {
-  "folder": "aW879UExGnRqy04V",
-  "img": "icons/sundries/books/book-red-exclamation.webp",
-  "name": "Predatory Claws",
-  "system": {
-    "actionType": {
-      "value": "passive"
-    },
-    "actions": {
-      "value": null
-    },
-    "category": "ancestry",
-    "description": {
-      "value": "<p>Your claws grow stronger, perfect for seizing and tearing your prey. The damage die for your claws strike increases to 1d6.</p><p>If you hit the same enemy with two consecutive claw Strikes in the same round, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple } that same target as a free action, provided you take that action immediately after the second Strike.</p>",
-      "gm": ""
-    },
-    "level": {
-      "value": 5
-    },
-    "prerequisites": {
-      "value": [
-        {
-          "value": "Vrykolakas Vampire"
-        },
-        {
-          "value": "Claws"
-        }
-      ]
-    },
-    "publication": {
-      "license": "ORC",
-      "remaster": true,
-      "title": "",
-      "authors": ""
-    },
-    "rules": [
-      {
-        "key": "DamageDice",
-        "override": {
-          "dieSize": "d6"
-        },
-        "selector": "claw-damage"
-      }
-    ],
-    "traits": {
-      "rarity": "common",
-      "value": [
-        "vampire",
-        "vrykolakas"
-      ],
-      "otherTags": []
-    },
-    "slug": "predatory-claws",
-    "_migration": {
-      "version": 0.943,
-      "previous": null
-    },
-    "onlyLevel1": false,
-    "maxTakable": 1,
-    "subfeatures": {
-      "proficiencies": {},
-      "senses": {},
-      "suppressedFeatures": []
-    },
-    "location": null
-  },
-  "type": "feat",
-  "_stats": {
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
-    "duplicateSource": "Item.WPATPiGiJcTdDd3O",
-    "exportSource": null,
-    "coreVersion": "13.348",
-    "systemId": "pf2e",
-    "systemVersion": "7.5.2",
-    "createdTime": 1760111960114,
-    "modifiedTime": 1760111960114,
-    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
-  },
-  "effects": [],
-  "flags": {},
-  "ownership": {
-    "default": 0,
-    "UPnjMbTUnpLyKVOr": 3
-  },
-  "sort": 100000,
-  "_id": "PYug5bu71BJx7MUL",
-  "_key": "!items!PYug5bu71BJx7MUL"
+	"folder": "aW879UExGnRqy04V",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"name": "Predatory Claws",
+	"system": {
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"category": "ancestry",
+		"description": {
+			"value": "<p>Your claws grow stronger, perfect for seizing and tearing your prey. The damage die for your claws strike increases to 1d6.</p><p>If you hit the same enemy with two consecutive claw Strikes in the same round, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple } that same target as a free action, provided you take that action immediately after the second Strike.</p>",
+			"gm": ""
+		},
+		"level": {
+			"value": 5
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Vrykolakas Vampire"
+				},
+				{
+					"value": "Claws"
+				}
+			]
+		},
+		"publication": {
+			"license": "ORC",
+			"remaster": true,
+			"title": "",
+			"authors": ""
+		},
+		"rules": [
+			{
+				"key": "DamageDice",
+				"override": {
+					"dieSize": "d6"
+				},
+				"selector": "claw-damage"
+			}
+		],
+		"traits": {
+			"rarity": "common",
+			"value": ["vampire", "vrykolakas"],
+			"otherTags": []
+		},
+		"slug": "predatory-claws",
+		"_migration": {
+			"version": 0.943,
+			"previous": null
+		},
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"type": "feat",
+	"_stats": {
+		"compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+		"duplicateSource": "Item.WPATPiGiJcTdDd3O",
+		"exportSource": null,
+		"coreVersion": "13.348",
+		"systemId": "pf2e",
+		"systemVersion": "7.5.2",
+		"createdTime": 1760111960114,
+		"modifiedTime": 1760111960114,
+		"lastModifiedBy": "UPnjMbTUnpLyKVOr"
+	},
+	"effects": [],
+	"flags": {},
+	"ownership": {
+		"default": 0,
+		"UPnjMbTUnpLyKVOr": 3
+	},
+	"sort": 100000,
+	"_id": "PYug5bu71BJx7MUL",
+	"_key": "!items!PYug5bu71BJx7MUL"
 }

@@ -1,72 +1,70 @@
 {
-  "img": "systems/pf2e/icons/spells/hideous-laughter.webp",
-  "name": "Revulsion",
-  "system": {
-    "actionType": {
-      "value": "passive"
-    },
-    "actions": {
-      "value": null
-    },
-    "category": "ancestryfeature",
-    "description": {
-      "value": "<p>Each Vampire heritage has a specific revulsion listed in their heritage entry.</p><p>A creature must Interact to brandish the revulsion for 1 round (similar to Raising a Shield).</p><p>If you involuntarily come within 10 feet of your revulsion, you can attempt a @Check[will|dc:25] save as a free action, which has the concentrate trait.</p><hr /><p><strong>Critical Success</strong> you overcome your revulsions for 1 hour</p><p><strong>Success</strong> as critical success, but the time is [[/r 1d6 #rounds]]{1d6 rounds}</p><p><strong>Failure</strong> you become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}</p><p><strong>Critical Failure</strong> you are @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D] for 1 round.</p>",
-      "gm": ""
-    },
-    "level": {
-      "value": 1
-    },
-    "prerequisites": {
-      "value": []
-    },
-    "publication": {
-      "license": "OGL",
-      "remaster": false,
-      "title": "Pathfinder Book of the Dead",
-      "authors": ""
-    },
-    "rules": [],
-    "traits": {
-      "rarity": "common",
-      "value": [
-        "vampire"
-      ],
-      "otherTags": []
-    },
-    "slug": "revulsion",
-    "_migration": {
-      "version": 0.943,
-      "previous": null
-    },
-    "onlyLevel1": false,
-    "maxTakable": 1,
-    "subfeatures": {
-      "proficiencies": {},
-      "senses": {},
-      "suppressedFeatures": []
-    },
-    "location": null
-  },
-  "type": "feat",
-  "_stats": {
-    "compendiumSource": "Compendium.pf2e.ancestryfeatures.Item.dkZ8RxdQFJrdxwQo",
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "13.348",
-    "systemId": "pf2e",
-    "systemVersion": "7.5.2",
-    "createdTime": 1760113207676,
-    "modifiedTime": 1760113207676,
-    "lastModifiedBy": "UPnjMbTUnpLyKVOr"
-  },
-  "effects": [],
-  "folder": "uxkAmYpMuCjlhvdy",
-  "flags": {},
-  "ownership": {
-    "default": 0,
-    "UPnjMbTUnpLyKVOr": 3
-  },
-  "_id": "wphBtAesiHcw78UR",
-  "sort": 100000,
-  "_key": "!items!wphBtAesiHcw78UR"
+	"img": "systems/pf2e/icons/spells/hideous-laughter.webp",
+	"name": "Revulsion",
+	"system": {
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"category": "ancestryfeature",
+		"description": {
+			"value": "<p>Each Vampire heritage has a specific revulsion listed in their heritage entry.</p><p>A creature must Interact to brandish the revulsion for 1 round (similar to Raising a Shield).</p><p>If you involuntarily come within 10 feet of your revulsion, you can attempt a @Check[will|dc:25] save as a free action, which has the concentrate trait.</p><hr /><p><strong>Critical Success</strong> you overcome your revulsions for 1 hour</p><p><strong>Success</strong> as critical success, but the time is [[/r 1d6 #rounds]]{1d6 rounds}</p><p><strong>Failure</strong> you become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}</p><p><strong>Critical Failure</strong> you are @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D] for 1 round.</p>",
+			"gm": ""
+		},
+		"level": {
+			"value": 1
+		},
+		"prerequisites": {
+			"value": []
+		},
+		"publication": {
+			"license": "OGL",
+			"remaster": false,
+			"title": "Pathfinder Book of the Dead",
+			"authors": ""
+		},
+		"rules": [],
+		"traits": {
+			"rarity": "common",
+			"value": ["vampire"],
+			"otherTags": []
+		},
+		"slug": "revulsion",
+		"_migration": {
+			"version": 0.943,
+			"previous": null
+		},
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"type": "feat",
+	"_stats": {
+		"compendiumSource": "Compendium.pf2e.ancestryfeatures.Item.dkZ8RxdQFJrdxwQo",
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "13.348",
+		"systemId": "pf2e",
+		"systemVersion": "7.5.2",
+		"createdTime": 1760113207676,
+		"modifiedTime": 1760113207676,
+		"lastModifiedBy": "UPnjMbTUnpLyKVOr"
+	},
+	"effects": [],
+	"folder": "uxkAmYpMuCjlhvdy",
+	"flags": {},
+	"ownership": {
+		"default": 0,
+		"UPnjMbTUnpLyKVOr": 3
+	},
+	"_id": "wphBtAesiHcw78UR",
+	"sort": 100000,
+	"_key": "!items!wphBtAesiHcw78UR"
 }

@@ -1,88 +1,85 @@
 {
-  "folder": "XWg50lfiqaPcUWu4",
-  "name": "Vetalarana Vampire",
-  "type": "heritage",
-  "effects": [],
-  "system": {
-    "_migration": {
-      "version": 0.943,
-      "previous": {
-        "schema": 0.943,
-        "foundry": "13.348",
-        "system": "7.5.2"
-      }
-    },
-    "description": {
-      "value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_PF2eAAVampire.actions.Item.rz0llfgpFyUDedjv]</p><p><strong>Revulsion:</strong> Openly sharing secrets</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_PF2eAAVampire.actions.Item.r6ntEE0Ib9dTelCg]</p><hr /><p>Psychic vampires, big heads.</p><p><strong>Pros:</strong></p><p>Thoughtsense.</p>",
-      "gm": ""
-    },
-    "publication": {
-      "title": "",
-      "authors": "",
-      "license": "OGL",
-      "remaster": false
-    },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.rz0llfgpFyUDedjv",
-        "allowDuplicate": false
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.FVTT_PF2eAAVampire.features.Item.8jSq1DPANWLoh7fG",
-        "allowDuplicate": false
-      },
-      {
-        "key": "GrantItem",
-        "predicate": [
-          {
-            "gte": [
-              "self.level",
-              10
-            ]
-          }
-        ],
-        "uuid": "Compendium.FVTT_PF2eAAVampire.actions.Item.r6ntEE0Ib9dTelCg",
-        "allowDuplicate": false,
-        "reevaluateOnUpdate": true
-      },
-      {
-        "key": "RollOption",
-        "domain": "all",
-        "option": "vampire-lineage:vetalarana"
-      }
-    ],
-    "slug": "vetalarana-vampire",
-    "traits": {
-      "otherTags": [],
-      "value": [],
-      "rarity": "common"
-    },
-    "ancestry": {
-      "name": "Vampire",
-      "slug": "vampire",
-      "uuid": "Compendium.FVTT_PF2eAAVampire.ancestries.Item.vuVn3FeKHSIqJRJ8"
-    }
-  },
-  "_id": "W7DoWxuSkrZAVTZF",
-  "img": "systems/pf2e/icons/default-icons/heritage.svg",
-  "sort": 500000,
-  "ownership": {
-    "default": 0,
-    "UPnjMbTUnpLyKVOr": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": "Item.W7DoWxuSkrZAVTZF",
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "14.367",
-    "systemId": "pf2e",
-    "systemVersion": "8.5.1",
-    "createdTime": 1760112600690,
-    "modifiedTime": 1791154056511,
-    "lastModifiedBy": "VgNHGFD7Mb77Euf4"
-  },
-  "_key": "!items!W7DoWxuSkrZAVTZF"
+	"folder": "XWg50lfiqaPcUWu4",
+	"name": "Vetalarana Vampire",
+	"type": "heritage",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.943,
+			"previous": {
+				"schema": 0.943,
+				"foundry": "13.348",
+				"system": "7.5.2"
+			}
+		},
+		"description": {
+			"value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eAAVampire.actions.Item.rz0llfgpFyUDedjv]</p><p><strong>Revulsion:</strong> Openly sharing secrets</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eAAVampire.actions.Item.r6ntEE0Ib9dTelCg]</p><hr /><p>Psychic vampires, big heads.</p><p><strong>Pros:</strong></p><p>Thoughtsense.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.FVTT_Pf2eAAVampire.actions.Item.rz0llfgpFyUDedjv",
+				"allowDuplicate": false
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.FVTT_Pf2eAAVampire.features.Item.8jSq1DPANWLoh7fG",
+				"allowDuplicate": false
+			},
+			{
+				"key": "GrantItem",
+				"predicate": [
+					{
+						"gte": ["self.level", 10]
+					}
+				],
+				"uuid": "Compendium.FVTT_Pf2eAAVampire.actions.Item.r6ntEE0Ib9dTelCg",
+				"allowDuplicate": false,
+				"reevaluateOnUpdate": true
+			},
+			{
+				"key": "RollOption",
+				"domain": "all",
+				"option": "vampire-lineage:vetalarana"
+			}
+		],
+		"slug": "vetalarana-vampire",
+		"traits": {
+			"otherTags": [],
+			"value": [],
+			"rarity": "common"
+		},
+		"ancestry": {
+			"name": "Vampire",
+			"slug": "vampire",
+			"uuid": "Compendium.FVTT_Pf2eAAVampire.ancestries.Item.vuVn3FeKHSIqJRJ8"
+		}
+	},
+	"_id": "W7DoWxuSkrZAVTZF",
+	"img": "systems/pf2e/icons/default-icons/heritage.svg",
+	"sort": 500000,
+	"ownership": {
+		"default": 0,
+		"UPnjMbTUnpLyKVOr": 3
+	},
+	"flags": {},
+	"_stats": {
+		"compendiumSource": "Item.W7DoWxuSkrZAVTZF",
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1760112600690,
+		"modifiedTime": 1791154056511,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4"
+	},
+	"_key": "!items!W7DoWxuSkrZAVTZF"
 }

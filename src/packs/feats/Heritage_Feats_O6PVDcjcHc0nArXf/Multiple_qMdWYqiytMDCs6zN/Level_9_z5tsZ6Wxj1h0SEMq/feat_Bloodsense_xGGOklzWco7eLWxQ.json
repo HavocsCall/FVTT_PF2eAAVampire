@@ -1,81 +1,79 @@
 {
-  "folder": "z5tsZ6Wxj1h0SEMq",
-  "name": "Bloodsense",
-  "type": "feat",
-  "effects": [],
-  "system": {
-    "_migration": {
-      "version": 0.943,
-      "previous": null
-    },
-    "description": {
-      "value": "<p>You're extraordinarily sensitive to the presence of blood. You gain bloodsense as an imprecise sense with a range of 30 feet. This allows you to sense the presence of creatures, living or dead, that have blood (this includes most creatures that aren't immune to bleed). You're similarly able to detect the presence of fresh blood in volumes of one pint or more, so long as it's no more than 24 hours old.</p>",
-      "gm": ""
-    },
-    "publication": {
-      "title": "",
-      "authors": "",
-      "license": "OGL",
-      "remaster": false
-    },
-    "rules": [],
-    "slug": "bloodsense",
-    "traits": {
-      "otherTags": [],
-      "value": [
-        "vampire"
-      ],
-      "rarity": "common"
-    },
-    "level": {
-      "value": 9
-    },
-    "category": "ancestry",
-    "onlyLevel1": false,
-    "maxTakable": 1,
-    "actionType": {
-      "value": "passive"
-    },
-    "actions": {
-      "value": null
-    },
-    "prerequisites": {
-      "value": [
-        {
-          "value": "Moroi Vampire or Nosferatu Vampire or Vrykolakas Vampire"
-        }
-      ]
-    },
-    "subfeatures": {
-      "proficiencies": {},
-      "senses": {
-        "bloodsense": {
-          "acuity": "imprecise",
-          "range": 30
-        }
-      },
-      "suppressedFeatures": []
-    },
-    "location": null
-  },
-  "_id": "xGGOklzWco7eLWxQ",
-  "img": "icons/sundries/books/book-red-exclamation.webp",
-  "sort": 200000,
-  "ownership": {
-    "default": 0,
-    "UPnjMbTUnpLyKVOr": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "14.363",
-    "systemId": "pf2e",
-    "systemVersion": "8.2.0",
-    "createdTime": 1760113309803,
-    "modifiedTime": 1781826813104,
-    "lastModifiedBy": "TwjCdJXrvDbGiwda"
-  },
-  "_key": "!items!xGGOklzWco7eLWxQ"
+	"folder": "z5tsZ6Wxj1h0SEMq",
+	"name": "Bloodsense",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.943,
+			"previous": null
+		},
+		"description": {
+			"value": "<p>You're extraordinarily sensitive to the presence of blood. You gain bloodsense as an imprecise sense with a range of 30 feet. This allows you to sense the presence of creatures, living or dead, that have blood (this includes most creatures that aren't immune to bleed). You're similarly able to detect the presence of fresh blood in volumes of one pint or more, so long as it's no more than 24 hours old.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": "bloodsense",
+		"traits": {
+			"otherTags": [],
+			"value": ["vampire"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 9
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Moroi Vampire or Nosferatu Vampire or Vrykolakas Vampire"
+				}
+			]
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {
+				"bloodsense": {
+					"acuity": "imprecise",
+					"range": 30
+				}
+			},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "xGGOklzWco7eLWxQ",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 200000,
+	"ownership": {
+		"default": 0,
+		"UPnjMbTUnpLyKVOr": 3
+	},
+	"flags": {},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "14.363",
+		"systemId": "pf2e",
+		"systemVersion": "8.2.0",
+		"createdTime": 1760113309803,
+		"modifiedTime": 1781826813104,
+		"lastModifiedBy": "TwjCdJXrvDbGiwda"
+	},
+	"_key": "!items!xGGOklzWco7eLWxQ"
 }

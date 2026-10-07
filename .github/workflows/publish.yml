@@ -1,61 +1,73 @@
 name: Release Creation
 
 on:
-  release:
-    types: [published]
+    release:
+        types: [published]
 
 permissions:
-  contents: write
+    contents: write
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repo
+              uses: actions/checkout@v4
 
-      # Get part of the tag after the `v`
-      - name: Extract tag version number
-        id: get-version
-        run: echo "version-without-v=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+            # Get part of the tag after the `v`
+            - name: Extract tag version number
+              id: get-version
+              run: echo "version-without-v=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
 
-      # Get the module JSON file and set it as an output variable
-      - name: Get module JSON
-        id: set_var
-        run: |
-          echo "PACKAGE_JSON=$(jq -c . < module.json)" >> $GITHUB_OUTPUT
+            # Substitute the variables in the `module.json`.
+            - name: Substitute manifest and download links for versioned ones
+              id: sub_manifest_link_version
+              uses: devops-actions/variable-substitution@v1.2
+              with:
+                  files: module.json
+              env:
+                  url: https://github.com/${{github.repository}}
+                  version: ${{steps.get-version.outputs.version-without-v}}
+                  manifest: https://github.com/${{github.repository}}/releases/latest/download/module.json
+                  download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
 
-      # Substitute the variables in the `module.json`.
-      - name: Substitute manifest and download links for versioned ones
-        id: sub_manifest_link_version
-        uses: devops-actions/variable-substitution@v1.2
-        with:
-          files: module.json
-        env:
-          url: https://github.com/${{github.repository}}
-          version: ${{steps.get-version.outputs.version-without-v}}
-          manifest: https://github.com/${{github.repository}}/releases/latest/download/module.json
-          download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
-      
-      # Build the compendiums
-      - name: Install Dependencies
-        run: npm ci
+            # Build the compendiums
+            - name: Install Dependencies
+              run: npm ci
 
-      - name: Build Packs
-        run: npm run Json-to-Compendium
+            - name: Build Packs
+              run: npm run Json-to-Compendium
 
-      # Create a folder containing all the module stuff and zip it for the release
-      - name: Create zip
-        run: zip -r9 ./module.zip module.json lang/ packs/ src/scripts/ src/styles/ README.md LICENSE CHANGELOG.md
+            # Create a folder containing all the module stuff and zip it for the release
+            - name: Create zip
+              run: |
+                  files=(
+                    module.json
+                    lang
+                    src
+                    README.md
+                    CONTRIBUTING.md
+                    LICENSE
+                    CHANGELOG.md
+                  )
 
-      # Add the module.json and the zip file to the release
-      - name: Update release with files
-        id: create_version_release
-        uses: ncipollo/release-action@v1
-        with:
-          token: ${{secrets.GITHUB_TOKEN}}
-          allowUpdates: true
-          omitDraftDuringUpdate: true
-          omitPrereleaseDuringUpdate: true
-          name: ${{steps.get-version.outputs.version-without-v}}
-          artifacts: './module.json, ./module.zip'
+                  # Include optional folders only when they exist.
+                  [[ -d images ]] && files+=(images)
+                  [[ -d packs ]] && files+=(packs)
+
+                  echo "Packaging:"
+                  printf ' - %s\n' "${files[@]}"
+
+                  zip -r9 ./module.zip "${files[@]}"
+
+            # Add the module.json and the zip file to the release
+            - name: Update release with files
+              id: create_version_release
+              uses: ncipollo/release-action@v1
+              with:
+                  token: ${{secrets.GITHUB_TOKEN}}
+                  allowUpdates: true
+                  omitDraftDuringUpdate: true
+                  omitPrereleaseDuringUpdate: true
+                  name: ${{steps.get-version.outputs.version-without-v}}
+                  artifacts: "./module.json, ./module.zip"

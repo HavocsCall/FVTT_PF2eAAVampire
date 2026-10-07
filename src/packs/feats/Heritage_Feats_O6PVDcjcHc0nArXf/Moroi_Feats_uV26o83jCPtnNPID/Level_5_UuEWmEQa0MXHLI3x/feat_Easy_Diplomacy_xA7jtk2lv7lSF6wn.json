@@ -1,88 +1,85 @@
 {
-  "folder": "UuEWmEQa0MXHLI3x",
-  "img": "icons/sundries/books/book-red-exclamation.webp",
-  "name": "Easy Diplomacy",
-  "system": {
-    "actionType": {
-      "value": "passive"
-    },
-    "actions": {
-      "value": null
-    },
-    "category": "ancestry",
-    "description": {
-      "value": "<p>Your wit and charm always make you the center of attention. You receive the feats, @UUID[Compendium.pf2e.feats-srd.0GF2j54roPFIDmXf]{Bon Mot} and @UUID[Compendium.pf2e.feats-srd.cc8O47KFsODReoBe]{Glad-Hand}.</p>",
-      "gm": ""
-    },
-    "level": {
-      "value": 5
-    },
-    "prerequisites": {
-      "value": [
-        {
-          "value": "Moroi Vampire"
-        }
-      ]
-    },
-    "publication": {
-      "license": "ORC",
-      "remaster": true,
-      "title": "",
-      "authors": ""
-    },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf",
-        "allowDuplicate": false
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats-srd.Item.cc8O47KFsODReoBe",
-        "allowDuplicate": false
-      }
-    ],
-    "traits": {
-      "rarity": "common",
-      "value": [
-        "vampire",
-        "moroi"
-      ],
-      "otherTags": []
-    },
-    "slug": "easy-diplomacy",
-    "_migration": {
-      "version": 0.943,
-      "previous": null
-    },
-    "onlyLevel1": false,
-    "maxTakable": 1,
-    "subfeatures": {
-      "proficiencies": {},
-      "senses": {},
-      "suppressedFeatures": []
-    },
-    "location": null
-  },
-  "type": "feat",
-  "_stats": {
-    "compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
-    "duplicateSource": "Item.4MNL0l09CdaIAs8Y",
-    "exportSource": null,
-    "coreVersion": "14.361",
-    "systemId": "pf2e",
-    "systemVersion": "8.1.2",
-    "createdTime": 1760111949143,
-    "modifiedTime": 1779244211191,
-    "lastModifiedBy": "eFGkP8WzukLIpsI9"
-  },
-  "effects": [],
-  "flags": {},
-  "ownership": {
-    "default": 0,
-    "UPnjMbTUnpLyKVOr": 3
-  },
-  "sort": 100000,
-  "_id": "xA7jtk2lv7lSF6wn",
-  "_key": "!items!xA7jtk2lv7lSF6wn"
+	"folder": "UuEWmEQa0MXHLI3x",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"name": "Easy Diplomacy",
+	"system": {
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"category": "ancestry",
+		"description": {
+			"value": "<p>Your wit and charm always make you the center of attention. You receive the feats, @UUID[Compendium.pf2e.feats-srd.0GF2j54roPFIDmXf]{Bon Mot} and @UUID[Compendium.pf2e.feats-srd.cc8O47KFsODReoBe]{Glad-Hand}.</p>",
+			"gm": ""
+		},
+		"level": {
+			"value": 5
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Moroi Vampire"
+				}
+			]
+		},
+		"publication": {
+			"license": "ORC",
+			"remaster": true,
+			"title": "",
+			"authors": ""
+		},
+		"rules": [
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.feats-srd.Item.0GF2j54roPFIDmXf",
+				"allowDuplicate": false
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.feats-srd.Item.cc8O47KFsODReoBe",
+				"allowDuplicate": false
+			}
+		],
+		"traits": {
+			"rarity": "common",
+			"value": ["vampire", "moroi"],
+			"otherTags": []
+		},
+		"slug": "easy-diplomacy",
+		"_migration": {
+			"version": 0.943,
+			"previous": null
+		},
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"type": "feat",
+	"_stats": {
+		"compendiumSource": "Compendium.pf2e.feats-srd.Item.i0iyW1I7TylEgpV6",
+		"duplicateSource": "Item.4MNL0l09CdaIAs8Y",
+		"exportSource": null,
+		"coreVersion": "14.361",
+		"systemId": "pf2e",
+		"systemVersion": "8.1.2",
+		"createdTime": 1760111949143,
+		"modifiedTime": 1779244211191,
+		"lastModifiedBy": "eFGkP8WzukLIpsI9"
+	},
+	"effects": [],
+	"flags": {},
+	"ownership": {
+		"default": 0,
+		"UPnjMbTUnpLyKVOr": 3
+	},
+	"sort": 100000,
+	"_id": "xA7jtk2lv7lSF6wn",
+	"_key": "!items!xA7jtk2lv7lSF6wn"
 }
