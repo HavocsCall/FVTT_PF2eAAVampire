@@ -14,15 +14,7 @@
 				"allowDuplicate": false
 			},
 			{
-				"choices": {
-					"filter": [
-						{
-							"not": "item:slug:{actor|system.details.ancestry.trait}"
-						}
-					],
-					"itemType": "ancestry",
-					"slugsAsValues": true
-				},
+				"choices": "accursedAncestries.formerAncestryChoices.vampire",
 				"flag": "ancestry",
 				"key": "ChoiceSet",
 				"prompt": "FVTT_PF2EAAVAMPIRE.SPECIFICRULES.PREVIOUSANCESTRY"

@@ -7,6 +7,12 @@
 				"NAME": "Former Ancestry: Use expanded sync",
 				"HINT": "Applies the selected former ancestry's chassis details to Vampire characters."
 			},
+			"FORMERANCESTRYSOURCE": {
+				"NAME": "Former Ancestry: Available sources",
+				"HINT": "Limits new former ancestry selections to the PF2e Ancestries compendium or allows ancestries from every compendium pack.",
+				"PF2E": "PF2e ancestries only",
+				"ALL": "All compendium packs"
+			},
 			"HUNGERMETER": {
 				"NAME": "Hunger Meter: Show character sheet panel",
 				"HINT": "Displays the Hunger meter on Vampire character sheets."

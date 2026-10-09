@@ -1,6 +1,6 @@
 {
-	"folder": "XWg50lfiqaPcUWu4",
-	"name": "Vetalarana Vampire",
+	"folder": null,
+	"name": "Jiang-Shi Vampire",
 	"type": "heritage",
 	"effects": [],
 	"system": {
@@ -13,7 +13,7 @@
 			}
 		},
 		"description": {
-			"value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eAAVampire.actions.Item.rz0llfgpFyUDedjv]</p><p><strong>Revulsion:</strong> Openly sharing secrets</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eAAVampire.actions.Item.r6ntEE0Ib9dTelCg]</p><hr /><p>Psychic vampires, big heads.</p><p><strong>Pros:</strong></p><p>Thoughtsense.</p>",
+			"value": "<p><strong>Feeding Method:</strong> @UUID[Compendium.FVTT_Pf2eAAVampire.actions.Item.45qG1dMfitsS0MoK]</p><p><strong>Revulsion:</strong> Brandished mirror or ringing bells</p><p><strong>Escape Death:</strong> At 10th level, you gain @UUID[Compendium.FVTT_Pf2eAAVampire.actions.Item.JB0PJmi5ifizxZje]</p><hr /><p>Asian Vampires, paper head.</p><p><strong>Pros:</strong></p><p>Breathsense.</p><p></p>",
 			"gm": ""
 		},
 		"publication": {
@@ -25,36 +25,35 @@
 		"rules": [
 			{
 				"key": "GrantItem",
-				"uuid": "Compendium.FVTT_Pf2eAAVampire.actions.Item.rz0llfgpFyUDedjv",
+				"uuid": "Compendium.FVTT_Pf2eAAVampire.actions.Item.45qG1dMfitsS0MoK",
 				"allowDuplicate": false
 			},
 			{
 				"key": "GrantItem",
-				"uuid": "Compendium.FVTT_Pf2eAAVampire.features.Item.8jSq1DPANWLoh7fG",
-				"allowDuplicate": false
+				"uuid": "Compendium.FVTT_Pf2eAAVampire.features.Item.4KFIne2XVFnaqDrj"
 			},
 			{
 				"key": "GrantItem",
+				"uuid": "Compendium.FVTT_Pf2eAAVampire.actions.Item.JB0PJmi5ifizxZje",
 				"predicate": [
 					{
 						"gte": ["self.level", 10]
 					}
 				],
-				"uuid": "Compendium.FVTT_Pf2eAAVampire.actions.Item.r6ntEE0Ib9dTelCg",
 				"allowDuplicate": false,
 				"reevaluateOnUpdate": true
 			},
 			{
 				"key": "RollOption",
 				"domain": "all",
-				"option": "vampire-lineage:vetalarana"
+				"option": "vampire-lineage:jiang-shi"
 			}
 		],
-		"slug": "vetalarana-vampire",
+		"slug": "jiang-shi-vampire",
 		"traits": {
 			"otherTags": [],
 			"value": [],
-			"rarity": "common"
+			"rarity": "rare"
 		},
 		"ancestry": {
 			"name": "Vampire",
@@ -62,24 +61,24 @@
 			"uuid": "Compendium.FVTT_Pf2eAAVampire.ancestries.Item.vuVn3FeKHSIqJRJ8"
 		}
 	},
-	"_id": "W7DoWxuSkrZAVTZF",
+	"_id": "jjcHPY7iux8t3xLo",
 	"img": "systems/pf2e/icons/default-icons/heritage.svg",
-	"sort": 500000,
+	"sort": 100000,
 	"ownership": {
 		"default": 0,
 		"UPnjMbTUnpLyKVOr": 3
 	},
 	"flags": {},
 	"_stats": {
-		"compendiumSource": "Item.W7DoWxuSkrZAVTZF",
+		"compendiumSource": "Item.jjcHPY7iux8t3xLo",
 		"duplicateSource": null,
 		"exportSource": null,
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
 		"createdTime": 1760112600690,
-		"modifiedTime": 1791154056511,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4"
+		"modifiedTime": 1791428110931,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN"
 	},
-	"_key": "!items!W7DoWxuSkrZAVTZF"
+	"_key": "!items!jjcHPY7iux8t3xLo"
 }
