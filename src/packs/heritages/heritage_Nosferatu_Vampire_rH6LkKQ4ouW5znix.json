@@ -89,8 +89,8 @@
 		"slug": "nosferatu-vampire",
 		"traits": {
 			"otherTags": [],
-			"value": [],
-			"rarity": "rare"
+			"value": ["nosferatu"],
+			"rarity": "common"
 		},
 		"ancestry": {
 			"name": "Vampire",
@@ -112,9 +112,9 @@
 		"exportSource": null,
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
-		"systemVersion": "8.5.1",
+		"systemVersion": "8.6.0",
 		"createdTime": 1760112600690,
-		"modifiedTime": 1791428112680,
+		"modifiedTime": 1791508703128,
 		"lastModifiedBy": "XXjyL2AwsEjLd9sN"
 	},
 	"_key": "!items!rH6LkKQ4ouW5znix"

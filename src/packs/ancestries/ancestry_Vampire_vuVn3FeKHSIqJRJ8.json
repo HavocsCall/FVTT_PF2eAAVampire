@@ -91,7 +91,7 @@
 				"level": 1
 			}
 		},
-		"vision": "darkvision"
+		"vision": "low-light-vision"
 	},
 	"img": "systems/pf2e/icons/default-icons/ancestry.svg",
 	"folder": null,
@@ -104,12 +104,12 @@
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null,
-		"coreVersion": "14.363",
+		"coreVersion": "14.367",
 		"systemId": "pf2e",
-		"systemVersion": "8.2.0",
+		"systemVersion": "8.6.0",
 		"createdTime": 1760113151225,
-		"modifiedTime": 1781827198356,
-		"lastModifiedBy": "TwjCdJXrvDbGiwda"
+		"modifiedTime": 1791514458094,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN"
 	},
 	"_id": "vuVn3FeKHSIqJRJ8",
 	"sort": 0,

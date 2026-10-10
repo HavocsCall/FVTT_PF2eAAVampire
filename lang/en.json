@@ -1,6 +1,6 @@
 {
 	"FVTT_PF2EAAVAMPIRE": {
-		"NAME": "PF2e AA: Vampire",
+		"NAME": "PF2e Accursed Ancestries: Vampire",
 		"SPECIFICRULES": { "PREVIOUSANCESTRY": "Which ancestry did you have before becoming a vampire?" },
 		"SETTINGS": {
 			"FORMERANCESTRYMODE": {

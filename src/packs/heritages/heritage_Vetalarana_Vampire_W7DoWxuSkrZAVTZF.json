@@ -53,7 +53,7 @@
 		"slug": "vetalarana-vampire",
 		"traits": {
 			"otherTags": [],
-			"value": [],
+			"value": ["vetalarana"],
 			"rarity": "common"
 		},
 		"ancestry": {
@@ -76,9 +76,9 @@
 		"exportSource": null,
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
-		"systemVersion": "8.5.1",
+		"systemVersion": "8.6.0",
 		"createdTime": 1760112600690,
-		"modifiedTime": 1791428114132,
+		"modifiedTime": 1791508711428,
 		"lastModifiedBy": "XXjyL2AwsEjLd9sN"
 	},
 	"_key": "!items!W7DoWxuSkrZAVTZF"

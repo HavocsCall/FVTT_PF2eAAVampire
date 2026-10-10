@@ -24,11 +24,11 @@
 
 </details>
 
-## [0.3.0] - 2026-10-06
+## [0.3.0] - 2026-10-10
 
 ### Changed
 
-- Renamed the module to PF2e AA: Vampire with module ID `FVTT_Pf2eAAVampire`
+- Renamed the module to PF2e Accursed Ancestries: Vampire with module ID `FVTT_Pf2eAAVampire`
 - Moved shared former-ancestry and meter code to PF2e AA Library
 
 ## [0.2.0] - 2026-07-02
