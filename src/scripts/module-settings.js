@@ -1,6 +1,7 @@
 import {
 	DEFAULT_HUNGER,
 	FORMER_ANCESTRY_SETTING,
+	FORMER_ANCESTRY_SOURCE_SETTING,
 	HUNGER_CONFUSED_THRESHOLD_SETTING,
 	HUNGER_CONDITIONS_SETTING,
 	HUNGER_DEATH_THRESHOLD_SETTING,
@@ -9,6 +10,7 @@ import {
 	HUNGER_REST_INCREASE_SETTING,
 	MODULE_ID,
 } from "./module-constants.js";
+import { refreshFormerAncestryChoices } from "/modules/FVTT_Pf2eAALibrary/src/scripts/former-ancestry-choices.js";
 import { reconcileFormerAncestryMode } from "/modules/FVTT_Pf2eAALibrary/src/scripts/former-ancestry-sync.js";
 
 export function registerSettings() {
@@ -23,6 +25,20 @@ export function registerSettings() {
 			if (!game.user?.isGM) return;
 			void reconcileFormerAncestryMode("vampire");
 		},
+	});
+
+	game.settings.register(MODULE_ID, FORMER_ANCESTRY_SOURCE_SETTING, {
+		name: "FVTT_PF2EAAVAMPIRE.SETTINGS.FORMERANCESTRYSOURCE.NAME",
+		hint: "FVTT_PF2EAAVAMPIRE.SETTINGS.FORMERANCESTRYSOURCE.HINT",
+		scope: "world",
+		config: true,
+		type: String,
+		choices: {
+			pf2e: "FVTT_PF2EAAVAMPIRE.SETTINGS.FORMERANCESTRYSOURCE.PF2E",
+			all: "FVTT_PF2EAAVAMPIRE.SETTINGS.FORMERANCESTRYSOURCE.ALL",
+		},
+		default: "pf2e",
+		onChange: () => void refreshFormerAncestryChoices("vampire"),
 	});
 
 	game.settings.register(MODULE_ID, HUNGER_METER_SETTING, {
@@ -89,6 +105,10 @@ export function registerSettings() {
 
 export function isFormerAncestrySyncEnabled() {
 	return game.settings.get(MODULE_ID, FORMER_ANCESTRY_SETTING) === true;
+}
+
+export function getFormerAncestrySource() {
+	return game.settings.get(MODULE_ID, FORMER_ANCESTRY_SOURCE_SETTING);
 }
 
 export function isHungerMeterEnabled() {

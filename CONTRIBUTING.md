@@ -1,14 +1,14 @@
 # Contributing
 
-## Development checks
+## Development
 
-Before preparing a release, run:
-
-```shell
-npm run check
-```
-
-Use `npm run fix` to apply Prettier formatting and safe ESLint fixes.
+- `npm install` installs development dependencies.
+- `npm run lint` checks the JavaScript source with ESLint.
+- `npm run lint:fix` applies safe automatic ESLint fixes.
+- `npm run format` formats maintained source files with Prettier.
+- `npm run format:check` checks formatting without changing files.
+- `npm run check` checks both formatting and lint rules.
+- `npm run fix` formats files and applies safe ESLint fixes.
 
 ## Version policy
 

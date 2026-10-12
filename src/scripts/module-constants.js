@@ -1,6 +1,7 @@
 export const MODULE_ID = "FVTT_Pf2eAAVampire";
 
 export const FORMER_ANCESTRY_SETTING = "enableFormerAncestrySync";
+export const FORMER_ANCESTRY_SOURCE_SETTING = "formerAncestrySource";
 export const HUNGER_METER_SETTING = "enableHungerMeter";
 export const HUNGER_CONDITIONS_SETTING = "enableHungerConditions";
 export const HUNGER_REST_INCREASE_SETTING = "increaseHungerOnRest";

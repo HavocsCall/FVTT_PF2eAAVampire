@@ -1,6 +1,7 @@
 import { registerAncestryProfile } from "/modules/FVTT_Pf2eAALibrary/src/scripts/ancestry-registry.js";
 import {
 	getDefaultHungerThresholds,
+	getFormerAncestrySource,
 	isFormerAncestrySyncEnabled,
 	isHungerMeterEnabled,
 	registerSettings,
@@ -12,6 +13,8 @@ import { MODULE_ID } from "./module-constants.js";
 registerAncestryProfile({
 	slug: "vampire",
 	isFormerAncestrySyncEnabled,
+	getFormerAncestrySource,
+	formerAncestryChoicesPath: "accursedAncestries.formerAncestryChoices.vampire",
 	meter: {
 		moduleId: MODULE_ID,
 		flag: "hunger",
